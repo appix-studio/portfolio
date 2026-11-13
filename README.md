@@ -93,13 +93,11 @@ python -m http.server 8000
 
 Puis ouvrir [http://localhost:8000](http://localhost:8000).
 
-## Publication
 
 Le projet est conçu comme un site statique et peut être publié avec **GitHub Pages** depuis la branche `main` (dossier racine), sans étape de build.
 
 Pour activer ou vérifier la publication : ouvrez les paramètres du dépôt GitHub, puis **Pages**, et vérifiez la source de déploiement ainsi que l’URL fournie par GitHub.
 
-## Contact
 
 **APPIX STUDIO**  
 Développement web et création de sites sur mesure.
