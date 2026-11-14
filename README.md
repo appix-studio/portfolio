@@ -5,73 +5,66 @@
 </p>
 
 <p align="center">
-  <a href="https://appixstudio.fr">Voir le site</a> ·
-  <a href="mailto:appix.web@gmail.com">Me contacter</a>
+  <a href="mailto:appix.web@gmail.com">Me contacter</a> ·
+  <a href="https://github.com/appix-studio">Voir le GitHub</a>
 </p>
 
 ## À propos
 
-Bienvenue sur le dépôt du portfolio d’APPIX STUDIO.
+Ce dépôt rassemble le portfolio d'APPIX Studio : des concepts de démonstration et une sélection de projets réalisés autour de la création de sites web.
 
-J’y rassemble une sélection de projets autour de la création de sites web : des concepts imaginés pour explorer une direction graphique, ainsi que des réalisations menées pour des clients. Le portfolio permet de découvrir chaque univers et, si un projet vous intéresse, de me transmettre une demande via le brief.
+L'objectif est de montrer différentes directions graphiques, la structuration des contenus et le travail d'intégration front-end. Chaque projet est présenté avec son contexte et ses choix de conception.
 
 ## Les projets
 
-| Projet | À découvrir |
+| Projet | Présentation |
 | --- | --- |
-| **Maison Veloria** | Un univers de pâtisserie artisanale haut de gamme — concept personnel |
-| **Zorvék** | Une boutique en ligne autour du café torréfié — concept personnel |
-| **APPIX** | Le site et l’identité du studio |
-| **MG PIXEL** | Une présence web pour une activité de réparation informatique et mobile |
-| **Bât Innov** | Un site vitrine dans le domaine de la rénovation et de la construction |
-| **Pierre Youdine** | Un site autour des services de bricolage et de rénovation |
+| **Maison Veloria** | Concept personnel autour d'une pâtisserie artisanale haut de gamme — projet fictif |
+| **Zorvék** | Concept personnel de boutique autour du café torréfié — projet fictif |
+| **APPIX** | Site et identité du studio |
+| **MG PIXEL** | Projet réalisé pour une activité de réparation informatique et mobile |
+| **Bât Innov** | Projet de site vitrine dans le domaine de la rénovation et de la construction |
+| **Pierre Youdine** | Projet de site autour des services de bricolage et de rénovation |
 
-Maison Veloria et Zorvék sont des projets de concept, et non des commandes clients. Les autres projets correspondent à des missions réalisées.
+Maison Veloria et Zorvék sont des concepts de démonstration, pas des commandes clients. La présentation des autres projets doit respecter les autorisations applicables.
 
-## Le site
+## Fonctionnalités du portfolio
 
-Le portfolio est développé sans framework ni étape de compilation. Il comprend notamment :
-
-- une présentation des projets et de leurs visuels ;
-- une navigation adaptée aux mobiles ;
-- des animations au défilement ;
-- un formulaire de brief en cinq étapes ;
-- un récapitulatif du brief que le visiteur peut télécharger.
+- Présentation des projets et de leurs visuels ;
+- navigation adaptée aux mobiles ;
+- animations au défilement ;
+- formulaire de brief en cinq étapes ;
+- récapitulatif du brief que le visiteur peut télécharger.
 
 Le formulaire utilise FormSubmit pour transmettre les demandes par e-mail.
 
 ## Technologies
 
-- HTML, CSS et JavaScript natifs
-- GSAP et ScrollTrigger pour les animations
-- Lenis pour le défilement fluide
+- HTML, CSS et JavaScript natifs ;
+- GSAP et ScrollTrigger pour les animations ;
+- Lenis pour le défilement fluide.
 
 Les bibliothèques, polices et ressources nécessaires sont stockées dans le dépôt.
 
-## Lancer le site
+## Lancer le projet en local
 
-Il suffit de cloner le dépôt et d’ouvrir `index.html` dans un navigateur :
+Clonez le dépôt :
 
 ```bash
 git clone https://github.com/appix-studio/portfolio.git
 cd portfolio
-```
-
-Pour lancer un petit serveur local, si besoin :
-
-```bash
 python -m http.server 8000
 ```
 
-Puis rendez-vous sur http://localhost:8000.
+Puis ouvrez http://localhost:8000 dans votre navigateur.
 
 ## Publication
 
-Le projet est un site statique. Il peut être publié avec GitHub Pages depuis la branche `main`, en sélectionnant le dossier racine dans **Settings → Pages**. L’adresse de publication est indiquée dans ces paramètres GitHub.
+Le site public [appixstudio.fr](https://appixstudio.fr) est en préparation. Ce dépôt permet de consulter le code et de lancer le portfolio localement.
 
----
+## Contact
 
-**APPIX STUDIO**  
-[appixstudio.fr](https://appixstudio.fr) · [appix.web@gmail.com](mailto:appix.web@gmail.com)
-
-[GitHub](https://github.com/yalumappix) · [LinkedIn](https://www.linkedin.com/in/zumra-gokhan/) · [Malt](https://www.malt.fr/profile/zumragokhan)
+- **E-mail :** [appix.web@gmail.com](mailto:appix.web@gmail.com)
+- **LinkedIn :** [Zumra Gokhan](https://www.linkedin.com/in/zumra-gokhan/)
+- **Instagram :** [@studioappix](https://www.instagram.com/studioappix/)
+- **GitHub :** [appix-studio](https://github.com/appix-studio)
